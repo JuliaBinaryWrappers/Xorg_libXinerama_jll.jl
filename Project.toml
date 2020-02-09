@@ -1,13 +1,11 @@
 name = "Xorg_libXinerama_jll"
 uuid = "d1454406-59df-5ea1-beac-c340f2130bc3"
-version = "1.1.4+0"
+version = "1.1.4+1"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
-Xorg_xineramaproto_jll = "6a3da44c-33b1-5374-838f-bf0fbf92c29b"
 Xorg_libXext_jll = "1082639a-0dae-5f34-9b06-72781eeb8cb3"
-Xorg_util_macros_jll = "7c09cfe3-afe2-5798-bcc9-d6b7fecfdca5"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 
 [compat]
-julia = "1.3"
+julia = "1.0"

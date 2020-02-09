@@ -2,8 +2,6 @@
 export libXinerama
 
 using Xorg_libXext_jll
-using Xorg_xineramaproto_jll
-using Xorg_util_macros_jll
 ## Global variables
 PATH = ""
 LIBPATH = ""
@@ -27,14 +25,18 @@ const libXinerama = "libXinerama.so.1"
 Open all libraries
 """
 function __init__()
-    global prefix = abspath(joinpath(@__DIR__, ".."))
+    global artifact_dir = abspath(artifact"Xorg_libXinerama")
 
     # Initialize PATH and LIBPATH environment variable listings
     global PATH_list, LIBPATH_list
-    append!.(Ref(PATH_list), (Xorg_libXext_jll.PATH_list, Xorg_xineramaproto_jll.PATH_list, Xorg_util_macros_jll.PATH_list,))
-    append!.(Ref(LIBPATH_list), (Xorg_libXext_jll.LIBPATH_list, Xorg_xineramaproto_jll.LIBPATH_list, Xorg_util_macros_jll.LIBPATH_list,))
+    # We first need to add to LIBPATH_list the libraries provided by Julia
+    append!(LIBPATH_list, [joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)])
+    # From the list of our dependencies, generate a tuple of all the PATH and LIBPATH lists,
+    # then append them to our own.
+    foreach(p -> append!(PATH_list, p), (Xorg_libXext_jll.PATH_list,))
+    foreach(p -> append!(LIBPATH_list, p), (Xorg_libXext_jll.LIBPATH_list,))
 
-    global libXinerama_path = abspath(joinpath(artifact"Xorg_libXinerama", libXinerama_splitpath...))
+    global libXinerama_path = normpath(joinpath(artifact_dir, libXinerama_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
