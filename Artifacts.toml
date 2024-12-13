@@ -1,89 +1,119 @@
 [[Xorg_libXinerama]]
 arch = "aarch64"
-git-tree-sha1 = "b0a9422741c0b87ad95aa74dc0159ed61e844dea"
+git-tree-sha1 = "fafd04e571f5e2300538fe26ebe38c0e1c884c72"
 libc = "glibc"
 os = "linux"
 
     [[Xorg_libXinerama.download]]
-    sha256 = "e47537e8ba35c9510d245cf4cc90c7d5b6c07fa572a7c94b5e9bc72746392e05"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXinerama_jll.jl/releases/download/Xorg_libXinerama-v1.1.4+3/Xorg_libXinerama.v1.1.4.aarch64-linux-gnu.tar.gz"
+    sha256 = "86a0e32d573fd77c85c1ee58019bb69016d205dfeb1019afafc358c63a1e39c8"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXinerama_jll.jl/releases/download/Xorg_libXinerama-v1.1.5+0/Xorg_libXinerama.v1.1.5.aarch64-linux-gnu.tar.gz"
 [[Xorg_libXinerama]]
 arch = "aarch64"
-git-tree-sha1 = "54aeb526fad95448ca83f3d5cdff3f6ce5a1e0ed"
+git-tree-sha1 = "644d52c6b97510a8141b11651b547f1e34d1c6bf"
 libc = "musl"
 os = "linux"
 
     [[Xorg_libXinerama.download]]
-    sha256 = "4a432bd6b79316d8ff290ba88a01bfc48b56123c9599180882ac3b3fe9280d69"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXinerama_jll.jl/releases/download/Xorg_libXinerama-v1.1.4+3/Xorg_libXinerama.v1.1.4.aarch64-linux-musl.tar.gz"
+    sha256 = "77b705b36b5bc2af747a7a3acfc0345c2d4da9d3b029cb08d50319e23c60575c"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXinerama_jll.jl/releases/download/Xorg_libXinerama-v1.1.5+0/Xorg_libXinerama.v1.1.5.aarch64-linux-musl.tar.gz"
 [[Xorg_libXinerama]]
-arch = "armv7l"
-git-tree-sha1 = "e181c6fa8294abb507e6cbbdc966bf7dc9539549"
-libc = "glibc"
-os = "linux"
-
-    [[Xorg_libXinerama.download]]
-    sha256 = "0badc9100c2cfb77da724208003d4b6505d9b0ff3e856143d43f5804a7374d97"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXinerama_jll.jl/releases/download/Xorg_libXinerama-v1.1.4+3/Xorg_libXinerama.v1.1.4.armv7l-linux-gnueabihf.tar.gz"
-[[Xorg_libXinerama]]
-arch = "armv7l"
-git-tree-sha1 = "9613ba5854c7e731a6b405227ee427c962fd1002"
-libc = "musl"
-os = "linux"
-
-    [[Xorg_libXinerama.download]]
-    sha256 = "64770fdba1342c279ba1f07d72a41ef689414d72260d29f67458b4094a42dcee"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXinerama_jll.jl/releases/download/Xorg_libXinerama-v1.1.4+3/Xorg_libXinerama.v1.1.4.armv7l-linux-musleabihf.tar.gz"
-[[Xorg_libXinerama]]
-arch = "i686"
-git-tree-sha1 = "cc93f70fb02e3876403ae8237a203e527b6a928f"
-libc = "glibc"
-os = "linux"
-
-    [[Xorg_libXinerama.download]]
-    sha256 = "7d646e5da9b88c03686eb5d10c83174c24576c41de0be056b18525b857273365"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXinerama_jll.jl/releases/download/Xorg_libXinerama-v1.1.4+3/Xorg_libXinerama.v1.1.4.i686-linux-gnu.tar.gz"
-[[Xorg_libXinerama]]
-arch = "i686"
-git-tree-sha1 = "39f2987e1482c1efb59ad86d5f666b867336eabf"
-libc = "musl"
-os = "linux"
-
-    [[Xorg_libXinerama.download]]
-    sha256 = "f874ac7b7abc21bb6af55b7d442b336c1acd171878d95f2c0a19befd2ec59f78"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXinerama_jll.jl/releases/download/Xorg_libXinerama-v1.1.4+3/Xorg_libXinerama.v1.1.4.i686-linux-musl.tar.gz"
-[[Xorg_libXinerama]]
-arch = "powerpc64le"
-git-tree-sha1 = "1fead2eb3be285b09bf305a4a16f81b103c71e12"
-libc = "glibc"
-os = "linux"
-
-    [[Xorg_libXinerama.download]]
-    sha256 = "9a0202ef5e620ec301914c85da957e47fe53acdcfe395d2ec83ac85000f94e7b"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXinerama_jll.jl/releases/download/Xorg_libXinerama-v1.1.4+3/Xorg_libXinerama.v1.1.4.powerpc64le-linux-gnu.tar.gz"
-[[Xorg_libXinerama]]
-arch = "x86_64"
-git-tree-sha1 = "7190f0cb0832b80761cc6d513dd9b935f3e26358"
-libc = "glibc"
-os = "linux"
-
-    [[Xorg_libXinerama.download]]
-    sha256 = "9e12fc7c4d8d41fad3d3d539e04c64ab651dd109a10fe0761352f321a6f9bed1"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXinerama_jll.jl/releases/download/Xorg_libXinerama-v1.1.4+3/Xorg_libXinerama.v1.1.4.x86_64-linux-gnu.tar.gz"
-[[Xorg_libXinerama]]
-arch = "x86_64"
-git-tree-sha1 = "66914d524efc7a39b9fe4606fad45f6185be4dff"
-libc = "musl"
-os = "linux"
-
-    [[Xorg_libXinerama.download]]
-    sha256 = "2601c467ba4cb7878e939c5b62b282963d01882b6b1f48515357d7a54838d8e7"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXinerama_jll.jl/releases/download/Xorg_libXinerama-v1.1.4+3/Xorg_libXinerama.v1.1.4.x86_64-linux-musl.tar.gz"
-[[Xorg_libXinerama]]
-arch = "x86_64"
-git-tree-sha1 = "32b2935e00ed350f5f81ea1e5c86001f2d96cc4c"
+arch = "aarch64"
+git-tree-sha1 = "ec8c244eb222e8187a704e6e0a04d3c2e902e584"
 os = "freebsd"
 
     [[Xorg_libXinerama.download]]
-    sha256 = "12a2814bc835dbcda26de302a9e04148903e7ae37af4a2d808e7f2fe6cdbaa44"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXinerama_jll.jl/releases/download/Xorg_libXinerama-v1.1.4+3/Xorg_libXinerama.v1.1.4.x86_64-unknown-freebsd11.1.tar.gz"
+    sha256 = "27a4276e9a4a3e9dfec5a24fede035d6f00f4649d3a91ce704348d5786226c79"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXinerama_jll.jl/releases/download/Xorg_libXinerama-v1.1.5+0/Xorg_libXinerama.v1.1.5.aarch64-unknown-freebsd.tar.gz"
+[[Xorg_libXinerama]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "f41e7b75cf4ed179ef0b908ea3ef70903d299d0a"
+libc = "glibc"
+os = "linux"
+
+    [[Xorg_libXinerama.download]]
+    sha256 = "ef04b17abdb257de06cc38c46027074dd1c302f2310cb2f3c8ba3ef866972e2a"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXinerama_jll.jl/releases/download/Xorg_libXinerama-v1.1.5+0/Xorg_libXinerama.v1.1.5.armv6l-linux-gnueabihf.tar.gz"
+[[Xorg_libXinerama]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "d762b314290bc22858a63394a11a55bc4ec3c6b4"
+libc = "musl"
+os = "linux"
+
+    [[Xorg_libXinerama.download]]
+    sha256 = "48713a00b3dfc3b669af2570f69c592ace7610bbc453933d63598f56c0904ade"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXinerama_jll.jl/releases/download/Xorg_libXinerama-v1.1.5+0/Xorg_libXinerama.v1.1.5.armv6l-linux-musleabihf.tar.gz"
+[[Xorg_libXinerama]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "8f9a7b54f6d29b21c719dd88da52e62d1736cdb5"
+libc = "glibc"
+os = "linux"
+
+    [[Xorg_libXinerama.download]]
+    sha256 = "a64a1c8ae7ad4bfa491515f42861529f05d1a254ef00a0d5670dd39d5458d1c0"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXinerama_jll.jl/releases/download/Xorg_libXinerama-v1.1.5+0/Xorg_libXinerama.v1.1.5.armv7l-linux-gnueabihf.tar.gz"
+[[Xorg_libXinerama]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "be9ea49ff9cff37798f7bc954da700c8cf48854e"
+libc = "musl"
+os = "linux"
+
+    [[Xorg_libXinerama.download]]
+    sha256 = "e87498eee5b203112351011de5710543ec5b1eea8a78d7eb3dac9b1b0d48eee1"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXinerama_jll.jl/releases/download/Xorg_libXinerama-v1.1.5+0/Xorg_libXinerama.v1.1.5.armv7l-linux-musleabihf.tar.gz"
+[[Xorg_libXinerama]]
+arch = "i686"
+git-tree-sha1 = "c025e3b7605165ad3a39ee61b1b84a03404e77dd"
+libc = "glibc"
+os = "linux"
+
+    [[Xorg_libXinerama.download]]
+    sha256 = "02d9b32b1f4b3bf366a786c6ed11fa9cbea608fdfe477242c4b9c914f2ffc37f"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXinerama_jll.jl/releases/download/Xorg_libXinerama-v1.1.5+0/Xorg_libXinerama.v1.1.5.i686-linux-gnu.tar.gz"
+[[Xorg_libXinerama]]
+arch = "i686"
+git-tree-sha1 = "140d3e18f16f954ed6ab626bc9a7b64f4f0668df"
+libc = "musl"
+os = "linux"
+
+    [[Xorg_libXinerama.download]]
+    sha256 = "7f44db69cda639607152591198489338b8c859ad233060972c88c6bfa4e1c80f"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXinerama_jll.jl/releases/download/Xorg_libXinerama-v1.1.5+0/Xorg_libXinerama.v1.1.5.i686-linux-musl.tar.gz"
+[[Xorg_libXinerama]]
+arch = "powerpc64le"
+git-tree-sha1 = "aabd35f8c53c4bb30de4190512025edd216abf7f"
+libc = "glibc"
+os = "linux"
+
+    [[Xorg_libXinerama.download]]
+    sha256 = "5f9d3d9a173da3539c079391fae22a1307c17f21e309af651cd00cdb9ad84aba"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXinerama_jll.jl/releases/download/Xorg_libXinerama-v1.1.5+0/Xorg_libXinerama.v1.1.5.powerpc64le-linux-gnu.tar.gz"
+[[Xorg_libXinerama]]
+arch = "x86_64"
+git-tree-sha1 = "b91557c233ebb402f9a2c3f8dec9573990211818"
+libc = "glibc"
+os = "linux"
+
+    [[Xorg_libXinerama.download]]
+    sha256 = "7a9c03797be1606845d56827075d88f3b64fb0613266c2cae1f4e2ded47fadce"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXinerama_jll.jl/releases/download/Xorg_libXinerama-v1.1.5+0/Xorg_libXinerama.v1.1.5.x86_64-linux-gnu.tar.gz"
+[[Xorg_libXinerama]]
+arch = "x86_64"
+git-tree-sha1 = "747c520fd9683b27544b4e090fac57222b93bef2"
+libc = "musl"
+os = "linux"
+
+    [[Xorg_libXinerama.download]]
+    sha256 = "c8db765026ed099d062cc50362a44693a464c71487d6708d11bea2985a034693"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXinerama_jll.jl/releases/download/Xorg_libXinerama-v1.1.5+0/Xorg_libXinerama.v1.1.5.x86_64-linux-musl.tar.gz"
+[[Xorg_libXinerama]]
+arch = "x86_64"
+git-tree-sha1 = "490ae72754f27fee23626a9a01e6cabbf1012bf4"
+os = "freebsd"
+
+    [[Xorg_libXinerama.download]]
+    sha256 = "5f80d2b5774d0ef87d289140d19a2f60d9d5f68099bd9774e47b6e98ac1be6c8"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libXinerama_jll.jl/releases/download/Xorg_libXinerama-v1.1.5+0/Xorg_libXinerama.v1.1.5.x86_64-unknown-freebsd.tar.gz"
